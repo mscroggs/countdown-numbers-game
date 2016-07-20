@@ -17,7 +17,7 @@ for n in range(5):
             try:
                 assert max([len([s for s in small if s==i]) for i in range(1,11)])<=2
                 made = possible(small+large)
-                if len([m for m in made if m is None]) == 0:
+                if len([m for m in made if made[m] is None]) == 0:
                     count += 0
                     print(small+large)
             except AssertionError:
