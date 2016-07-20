@@ -10,3 +10,5 @@ By default it uses 3,6,8,10,75,100.
 
 Run `make_all.py` to find combinations of numbers that allow you to make all possible
 totals.
+
+WARNING: This code is very slow!
