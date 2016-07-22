@@ -10,5 +10,5 @@ def format(j):
 
 made = possible(numbers)
 
-with open("output/"+" ".join([str(i) for i in numbers]),"w") as f:
+with open("output/"+"-".join([str(i) for i in numbers])+".txt","w") as f:
     f.write("\n".join([str(i)+" "+format(j) for i,j in made.items()]))
